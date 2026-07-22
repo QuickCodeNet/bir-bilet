@@ -1,0 +1,4072 @@
+﻿{
+"ApiMethodDefinitions": [
+  {
+    "Key": "GetapiidentitymodulemodulesmodulenameisexistsmodulenameModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Get",
+    "ControllerName": "ModulesController",
+    "MethodName": "module-name-is-exists/{moduleName}",
+    "UrlPath": "/api/identity-module/modules/module-name-is-exists/{moduleName}"
+  },
+  {
+    "Key": "GetapiidentitymodulemodulesModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Get",
+    "ControllerName": "ModulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/modules"
+  },
+  {
+    "Key": "GetapiidentitymodulemodulescountModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Get",
+    "ControllerName": "ModulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/modules/count"
+  },
+  {
+    "Key": "PostapiidentitymodulemodulesModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Post",
+    "ControllerName": "ModulesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/modules"
+  },
+  {
+    "Key": "GetapiidentitymodulemodulesnameModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Get",
+    "ControllerName": "ModulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/modules/{name}"
+  },
+  {
+    "Key": "PutapiidentitymodulemodulesnameModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Put",
+    "ControllerName": "ModulesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/modules/{name}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulemodulesnameModulesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Modules",
+    "HttpMethod": "Delete",
+    "ControllerName": "ModulesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/modules/{name}"
+  },
+  {
+    "Key": "GetapiidentitymodulemodelsmodulenameisexistsModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Get",
+    "ControllerName": "ModelsController",
+    "MethodName": "module-name-is-exists",
+    "UrlPath": "/api/identity-module/models/module-name-is-exists"
+  },
+  {
+    "Key": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelmodulenameModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Delete",
+    "ControllerName": "ModelsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/models/delete-models-with-module-name/{modelModuleName}"
+  },
+  {
+    "Key": "GetapiidentitymodulemodelsModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Get",
+    "ControllerName": "ModelsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/models"
+  },
+  {
+    "Key": "GetapiidentitymodulemodelscountModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Get",
+    "ControllerName": "ModelsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/models/count"
+  },
+  {
+    "Key": "PostapiidentitymodulemodelsModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Post",
+    "ControllerName": "ModelsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/models"
+  },
+  {
+    "Key": "GetapiidentitymodulemodelsnamemodulenameModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Get",
+    "ControllerName": "ModelsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/models/{name}/{moduleName}"
+  },
+  {
+    "Key": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Put",
+    "ControllerName": "ModelsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/models/{name}/{moduleName}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Models",
+    "HttpMethod": "Delete",
+    "ControllerName": "ModelsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/models/{name}/{moduleName}"
+  },
+  {
+    "Key": "GetapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Get",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/permission-groups"
+  },
+  {
+    "Key": "GetapiidentitymodulepermissiongroupscountPermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Get",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/permission-groups/count"
+  },
+  {
+    "Key": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Post",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/permission-groups"
+  },
+  {
+    "Key": "GetapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Get",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/permission-groups/{name}"
+  },
+  {
+    "Key": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Put",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/permission-groups/{name}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PermissionGroups",
+    "HttpMethod": "Delete",
+    "ControllerName": "PermissionGroupsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/permission-groups/{name}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsgetkafkaeventsapimethoddefinitionsapimethoddefinitionskeyApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "get-kafka-events-api-method-definitions/{apiMethodDefinitionsKey}",
+    "UrlPath": "/api/identity-module/api-method-definitions/get-kafka-events-api-method-definitions/{apiMethodDefinitionsKey}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "get-api-method-definitions-with-module-name/{apiMethodDefinitionModuleName}",
+    "UrlPath": "/api/identity-module/api-method-definitions/get-api-method-definitions-with-module-name/{apiMethodDefinitionModuleName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "get-api-method-definitions-with-model-name/{apiMethodDefinitionModelName}",
+    "UrlPath": "/api/identity-module/api-method-definitions/get-api-method-definitions-with-model-name/{apiMethodDefinitionModelName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "exists-api-method-definitions-with-module-name/{apiMethodDefinitionModuleName}",
+    "UrlPath": "/api/identity-module/api-method-definitions/exists-api-method-definitions-with-module-name/{apiMethodDefinitionModuleName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "exists-api-method-definitions-with-model-name/{apiMethodDefinitionModelName}",
+    "UrlPath": "/api/identity-module/api-method-definitions/exists-api-method-definitions-with-model-name/{apiMethodDefinitionModelName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/api-method-definitions/delete-api-method-definitions-with-module-name/{apiMethodDefinitionModuleName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/api-method-definitions/delete-api-method-definitions-with-model-name/{apiMethodDefinitionModelName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-definitions"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionscountApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-definitions/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Post",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/api-method-definitions"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-definitions/{key}"
+  },
+  {
+    "Key": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Put",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/api-method-definitions/{key}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/api-method-definitions/{key}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "get-portal-page-definitions-with-module-name/{portalPageDefinitionModuleName}",
+    "UrlPath": "/api/identity-module/portal-page-definitions/get-portal-page-definitions-with-module-name/{portalPageDefinitionModuleName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "get-portal-page-definitions-with-model-name/{portalPageDefinitionModelName}",
+    "UrlPath": "/api/identity-module/portal-page-definitions/get-portal-page-definitions-with-model-name/{portalPageDefinitionModelName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "exists-portal-page-definitions-with-module-name/{portalPageDefinitionModuleName}",
+    "UrlPath": "/api/identity-module/portal-page-definitions/exists-portal-page-definitions-with-module-name/{portalPageDefinitionModuleName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "exists-portal-page-definitions-with-model-name/{portalPageDefinitionModelName}",
+    "UrlPath": "/api/identity-module/portal-page-definitions/exists-portal-page-definitions-with-model-name/{portalPageDefinitionModelName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-page-definitions/delete-portal-page-definitions-with-module-name/{portalPageDefinitionModuleName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-page-definitions/delete-portal-page-definitions-with-model-name/{portalPageDefinitionModelName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-definitions"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionscountPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-definitions/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Post",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/portal-page-definitions"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-definitions/{key}"
+  },
+  {
+    "Key": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Put",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/portal-page-definitions/{key}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-page-definitions/{key}"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethodaccessgrantsgetapimethodaccessgrantnamesapimethodaccessgrantpermissiongroupnameApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "get-api-method-access-grant-names/{apiMethodAccessGrantPermissionGroupName}",
+    "UrlPath": "/api/identity-module/api-method-access-grants/get-api-method-access-grant-names/{apiMethodAccessGrantPermissionGroupName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Delete",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/api-method-access-grants/clear-api-method-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethodaccessgrantscountApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-access-grants/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Post",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/api-method-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/api-method-access-grants/{permissionGroupName}/{apiMethodDefinitionKey}"
+  },
+  {
+    "Key": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Put",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/api-method-access-grants/{permissionGroupName}/{apiMethodDefinitionKey}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodAccessGrants",
+    "HttpMethod": "Delete",
+    "ControllerName": "ApiMethodAccessGrantsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/api-method-access-grants/{permissionGroupName}/{apiMethodDefinitionKey}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantsportalpageaccessgrantpermissiongroupnamePortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "get-portal-page-access-grants/{portalPageAccessGrantPermissionGroupName}",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/get-portal-page-access-grants/{portalPageAccessGrantPermissionGroupName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantportalpageaccessgrantpermissiongroupnameportalpageaccessgrantportalpagedefinitionkeyportalpageaccessgrantpageactionPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "get-portal-page-access-grant/{portalPageAccessGrantPermissionGroupName}/{portalPageAccessGrantPortalPageDefinitionKey}/{portalPageAccessGrantPageAction}",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/get-portal-page-access-grant/{portalPageAccessGrantPermissionGroupName}/{portalPageAccessGrantPortalPageDefinitionKey}/{portalPageAccessGrantPageAction}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/clear-portal-page-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpageaccessgrantscountPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Post",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/portal-page-access-grants"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/{permissionGroupName}/{portalPageDefinitionKey}/{pageAction}"
+  },
+  {
+    "Key": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Put",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/{permissionGroupName}/{portalPageDefinitionKey}/{pageAction}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageAccessGrants",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalPageAccessGrantsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-page-access-grants/{permissionGroupName}/{portalPageDefinitionKey}/{pageAction}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenukeyPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-menus/delete-portal-menu-items-with-module-name/{portalMenuKey}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenukeyportalmenunamePortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-menus/delete-portal-menu-items-with-model-name/{portalMenuKey}/{portalMenuName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalmenusPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-menus"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalmenuscountPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-menus/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Post",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/portal-menus"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalmenuskeyPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/portal-menus/{key}"
+  },
+  {
+    "Key": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Put",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/portal-menus/{key}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalMenus",
+    "HttpMethod": "Delete",
+    "ControllerName": "PortalMenusController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/portal-menus/{key}"
+  },
+  {
+    "Key": "GetapiidentitymodulecolumntypesColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/column-types"
+  },
+  {
+    "Key": "GetapiidentitymodulecolumntypescountColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/column-types/count"
+  },
+  {
+    "Key": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Post",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/column-types"
+  },
+  {
+    "Key": "GetapiidentitymodulecolumntypesidintColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/column-types/{id:int}"
+  },
+  {
+    "Key": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Put",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/column-types/{id:int}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ColumnTypes",
+    "HttpMethod": "Delete",
+    "ControllerName": "ColumnTypesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/column-types/{id:int}"
+  },
+  {
+    "Key": "GetapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Get",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/table-combobox-settings"
+  },
+  {
+    "Key": "GetapiidentitymoduletablecomboboxsettingscountTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Get",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/table-combobox-settings/count"
+  },
+  {
+    "Key": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Post",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/table-combobox-settings"
+  },
+  {
+    "Key": "GetapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Get",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/table-combobox-settings/{tableName}"
+  },
+  {
+    "Key": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Put",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/table-combobox-settings/{tableName}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TableComboboxSettings",
+    "HttpMethod": "Delete",
+    "ControllerName": "TableComboboxSettingsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/table-combobox-settings/{tableName}"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventsgetkafkaeventsKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "get-kafka-events",
+    "UrlPath": "/api/identity-module/kafka-events/get-kafka-events"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventsgetactivekafkaeventsKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "get-active-kafka-events",
+    "UrlPath": "/api/identity-module/kafka-events/get-active-kafka-events"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "get-topic-workflows/{kafkaEventsTopicName}/{apiMethodDefinitionsHttpMethod}",
+    "UrlPath": "/api/identity-module/kafka-events/get-topic-workflows/{kafkaEventsTopicName}/{apiMethodDefinitionsHttpMethod}"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventsgettopicworkflowskafkaeventskafkaeventstopicnameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "get-topic-workflows-kafka-events/{kafkaEventsTopicName}",
+    "UrlPath": "/api/identity-module/kafka-events/get-topic-workflows-kafka-events/{kafkaEventsTopicName}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Delete",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/kafka-events/clean-kafka-events-with-module-name/{apiMethodDefinitionsModuleName}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Delete",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/kafka-events/clean-kafka-events-with-model-name/{apiMethodDefinitionsModelName}"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventsKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/kafka-events"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventscountKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/kafka-events/count"
+  },
+  {
+    "Key": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Post",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/kafka-events"
+  },
+  {
+    "Key": "GetapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Get",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/kafka-events/{topicName}"
+  },
+  {
+    "Key": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Put",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/kafka-events/{topicName}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "KafkaEvents",
+    "HttpMethod": "Delete",
+    "ControllerName": "KafkaEventsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/kafka-events/{topicName}"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsgetworkflowstopicworkflowkafkaeventstopicnameTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "get-workflows/{topicWorkflowKafkaEventsTopicName}",
+    "UrlPath": "/api/identity-module/topic-workflows/get-workflows/{topicWorkflowKafkaEventsTopicName}"
+  },
+  {
+    "Key": "Getapiidentitymoduletopicworkflowsgetworkflows2topicworkflowkafkaeventstopicnameTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "get-workflows-2/{topicWorkflowKafkaEventsTopicName}",
+    "UrlPath": "/api/identity-module/topic-workflows/get-workflows-2/{topicWorkflowKafkaEventsTopicName}"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "get-topic-workflows/{kafkaEventsTopicName}/{apiMethodDefinitionsHttpMethod}",
+    "UrlPath": "/api/identity-module/topic-workflows/get-topic-workflows/{kafkaEventsTopicName}/{apiMethodDefinitionsHttpMethod}"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/topic-workflows"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowscountTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/topic-workflows/count"
+  },
+  {
+    "Key": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Post",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/topic-workflows"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Get",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/topic-workflows/{id:int}"
+  },
+  {
+    "Key": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Put",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/topic-workflows/{id:int}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "TopicWorkflows",
+    "HttpMethod": "Delete",
+    "ControllerName": "TopicWorkflowsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/topic-workflows/{id:int}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetrolesAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-roles"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetrolescountAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-roles/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-roles"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-roles/{id}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-roles/{id}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoles",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetRolesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-roles/{id}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersgetuseraspnetuseremailAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "get-user/{aspNetUserEmail}",
+    "UrlPath": "/api/identity-module/asp-net-users/get-user/{aspNetUserEmail}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersidentityuserbyidaspnetuseridAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "identity-user-by-id/{aspNetUserId}",
+    "UrlPath": "/api/identity-module/asp-net-users/identity-user-by-id/{aspNetUserId}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersidentityuserbynormalizedemailaspnetusernormalizedemailAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "identity-user-by-normalized-email/{aspNetUserNormalizedEmail}",
+    "UrlPath": "/api/identity-module/asp-net-users/identity-user-by-normalized-email/{aspNetUserNormalizedEmail}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersidentityuserbynormalizedusernameaspnetusernormalizedusernameAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "identity-user-by-normalized-username/{aspNetUserNormalizedUserName}",
+    "UrlPath": "/api/identity-module/asp-net-users/identity-user-by-normalized-username/{aspNetUserNormalizedUserName}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-users"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserscountAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-users/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-users"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusersidAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-users/{id}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-users/{id}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUsers",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetUsersController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-users/{id}"
+  },
+  {
+    "Key": "GetapiidentitymodulerefreshtokensgetrefreshtokenrefreshtokentokenRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "get-refresh-token/{refreshTokenToken}",
+    "UrlPath": "/api/identity-module/refresh-tokens/get-refresh-token/{refreshTokenToken}"
+  },
+  {
+    "Key": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokentokenRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Patch",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/identity-module/refresh-tokens/update-refresh-tokens/{refreshTokenToken}"
+  },
+  {
+    "Key": "GetapiidentitymodulerefreshtokensRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/refresh-tokens"
+  },
+  {
+    "Key": "GetapiidentitymodulerefreshtokenscountRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/refresh-tokens/count"
+  },
+  {
+    "Key": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Post",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/refresh-tokens"
+  },
+  {
+    "Key": "GetapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/refresh-tokens/{id:int}"
+  },
+  {
+    "Key": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Put",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/refresh-tokens/{id:int}"
+  },
+  {
+    "Key": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "RefreshTokens",
+    "HttpMethod": "Delete",
+    "ControllerName": "RefreshTokensController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/refresh-tokens/{id:int}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-role-claims"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetroleclaimscountAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-role-claims/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-role-claims"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-role-claims/{id:int}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-role-claims/{id:int}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetRoleClaims",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetRoleClaimsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-role-claims/{id:int}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-claims"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserclaimscountAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-claims/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-user-claims"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-claims/{id:int}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-user-claims/{id:int}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserClaims",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetUserClaimsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-user-claims/{id:int}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-logins"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserloginscountAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-logins/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-user-logins"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-logins/{loginProvider}/{providerKey}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-user-logins/{loginProvider}/{providerKey}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserLogins",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetUserLoginsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-user-logins/{loginProvider}/{providerKey}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-roles"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserrolescountAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-roles/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-user-roles"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-roles/{userId}/{roleId}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-user-roles/{userId}/{roleId}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserRoles",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetUserRolesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-user-roles/{userId}/{roleId}"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusertokenscountAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Post",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens"
+  },
+  {
+    "Key": "GetapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Get",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens/{userId}"
+  },
+  {
+    "Key": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Put",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens/{userId}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AspNetUserTokens",
+    "HttpMethod": "Delete",
+    "ControllerName": "AspNetUserTokensController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/asp-net-user-tokens/{userId}"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsgetrecenthttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/get-recent-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsgetrecenthttprequestsbymoduleauditlogrequestmoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests-by-module/{auditLogRequestModule}",
+    "UrlPath": "/api/identity-module/audit-logs/get-recent-http-requests-by-module/{auditLogRequestModule}"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatstodayhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-today-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-today-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatslasthourhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-last-hour-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-last-hour-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsyesterdayhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yesterday-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-yesterday-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsweeklyhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-weekly-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-weekly-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsmonthlyhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-monthly-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-monthly-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsyearlyhttprequestsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yearly-http-requests",
+    "UrlPath": "/api/identity-module/audit-logs/stats-yearly-http-requests"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsdailyhttprequestsbydayAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day",
+    "UrlPath": "/api/identity-module/audit-logs/stats-daily-http-requests-by-day"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatsdailyhttprequestsbydaybymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-daily-http-requests-by-day-by-module"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatshourlyhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-hourly-http-requests-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-hourly-http-requests-by-module"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatstotalhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-total-http-requests-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-total-http-requests-by-module"
+  },
+  {
+    "Key": "Getapiidentitymoduleauditlogsstatshttpstatuscodeslast24hoursbymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-last-24-hours-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-http-status-codes-last-24-hours-by-module"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatshttpstatuscodesAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes",
+    "UrlPath": "/api/identity-module/audit-logs/stats-http-status-codes"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatshttpstatuscodesbymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-http-status-codes-by-module"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsstatstophttpservicesbymoduleAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-top-http-services-by-module",
+    "UrlPath": "/api/identity-module/audit-logs/stats-top-http-services-by-module"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/audit-logs"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogscountAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/audit-logs/count"
+  },
+  {
+    "Key": "PostapiidentitymoduleauditlogsAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Post",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/identity-module/audit-logs"
+  },
+  {
+    "Key": "GetapiidentitymoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/identity-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "PutapiidentitymoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Put",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/identity-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "DeleteapiidentitymoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Delete",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/identity-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgetactiveEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-active",
+    "UrlPath": "/api/event-management-module/event-items/get-active"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgetbytypeeventitemeventtypeEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-by-type/{eventItemEventType}",
+    "UrlPath": "/api/event-management-module/event-items/get-by-type/{eventItemEventType}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgetpublishedEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-published",
+    "UrlPath": "/api/event-management-module/event-items/get-published"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemssearchbynameeventitemnameEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "search-by-name/{eventItemName}",
+    "UrlPath": "/api/event-management-module/event-items/search-by-name/{eventItemName}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgetrecentEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-recent",
+    "UrlPath": "/api/event-management-module/event-items/get-recent"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgetupcomingEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-upcoming",
+    "UrlPath": "/api/event-management-module/event-items/get-upcoming"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsgettotalbytypeeventitemeventtypeEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "get-total-by-type/{eventItemEventType}",
+    "UrlPath": "/api/event-management-module/event-items/get-total-by-type/{eventItemEventType}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleeventitemspublisheventitemidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Patch",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/event-items/publish/{eventItemId:int}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleeventitemscanceleventitemidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Patch",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/event-items/cancel/{eventItemId:int}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleeventitemsmarkcompletedeventitemidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Patch",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/event-items/mark-completed/{eventItemId:int}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleeventitemsdeactivateeventitemidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Delete",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/event-items/deactivate/{eventItemId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-items"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemscountEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-items/count"
+  },
+  {
+    "Key": "PostapieventmanagementmoduleeventitemsEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Post",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/event-management-module/event-items"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventitemsidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Get",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-items/{id:int}"
+  },
+  {
+    "Key": "PutapieventmanagementmoduleeventitemsidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Put",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/event-management-module/event-items/{id:int}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleeventitemsidintEventItemsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventItems",
+    "HttpMethod": "Delete",
+    "ControllerName": "EventItemsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/event-items/{id:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventtypesgetactiveEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "EventTypesController",
+    "MethodName": "get-active",
+    "UrlPath": "/api/event-management-module/event-types/get-active"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleeventtypesdeactivateeventtypeidintEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Patch",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/event-types/deactivate/{eventTypeId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventtypesEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-types"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventtypescountEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-types/count"
+  },
+  {
+    "Key": "PostapieventmanagementmoduleeventtypesEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Post",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/event-management-module/event-types"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleeventtypesidintEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Get",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/event-types/{id:int}"
+  },
+  {
+    "Key": "PutapieventmanagementmoduleeventtypesidintEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Put",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/event-management-module/event-types/{id:int}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleeventtypesidintEventTypesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "EventTypes",
+    "HttpMethod": "Delete",
+    "ControllerName": "EventTypesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/event-types/{id:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetbyeventscheduleeventidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-by-event/{scheduleEventId:int}",
+    "UrlPath": "/api/event-management-module/schedules/get-by-event/{scheduleEventId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetbyvenueschedulevenueidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-by-venue/{scheduleVenueId:int}",
+    "UrlPath": "/api/event-management-module/schedules/get-by-venue/{scheduleVenueId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetbydaterangeschedulescheduledatefromdatetimeschedulescheduledatetodatetimeSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-by-date-range/{scheduleScheduleDateFrom:DateTime}/{scheduleScheduleDateTo:DateTime}",
+    "UrlPath": "/api/event-management-module/schedules/get-by-date-range/{scheduleScheduleDateFrom:DateTime}/{scheduleScheduleDateTo:DateTime}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetavailableSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-available",
+    "UrlPath": "/api/event-management-module/schedules/get-available"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetupcomingschedulesSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-upcoming-schedules",
+    "UrlPath": "/api/event-management-module/schedules/get-upcoming-schedules"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetsoldoutSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-sold-out",
+    "UrlPath": "/api/event-management-module/schedules/get-sold-out"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgettodayschedulesSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-today-schedules",
+    "UrlPath": "/api/event-management-module/schedules/get-today-schedules"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesgetschedulesummaryscheduleeventidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "get-schedule-summary/{scheduleEventId:int}",
+    "UrlPath": "/api/event-management-module/schedules/get-schedule-summary/{scheduleEventId:int}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleschedulesupdateavailableseatsscheduleidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Patch",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/schedules/update-available-seats/{scheduleId:int}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleschedulesmarksoldoutscheduleidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Patch",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/schedules/mark-sold-out/{scheduleId:int}"
+  },
+  {
+    "Key": "PatchapieventmanagementmoduleschedulescancelschedulescheduleidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Patch",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/event-management-module/schedules/cancel-schedule/{scheduleId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedules"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulescountSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedules/count"
+  },
+  {
+    "Key": "PostapieventmanagementmoduleschedulesSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Post",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/event-management-module/schedules"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulesidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Get",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedules/{id:int}"
+  },
+  {
+    "Key": "PutapieventmanagementmoduleschedulesidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Put",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/event-management-module/schedules/{id:int}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleschedulesidintSchedulesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "Schedules",
+    "HttpMethod": "Delete",
+    "ControllerName": "SchedulesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/schedules/{id:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulehistoriesgetbyscheduleschedulehistoryscheduleidintScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "get-by-schedule/{scheduleHistoryScheduleId:int}",
+    "UrlPath": "/api/event-management-module/schedule-histories/get-by-schedule/{scheduleHistoryScheduleId:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulehistoriesgetrecentchangesScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "get-recent-changes",
+    "UrlPath": "/api/event-management-module/schedule-histories/get-recent-changes"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulehistoriesScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedule-histories"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulehistoriescountScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedule-histories/count"
+  },
+  {
+    "Key": "PostapieventmanagementmoduleschedulehistoriesScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Post",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/event-management-module/schedule-histories"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleschedulehistoriesidintScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/schedule-histories/{id:int}"
+  },
+  {
+    "Key": "PutapieventmanagementmoduleschedulehistoriesidintScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Put",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/event-management-module/schedule-histories/{id:int}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleschedulehistoriesidintScheduleHistoriesController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "ScheduleHistories",
+    "HttpMethod": "Delete",
+    "ControllerName": "ScheduleHistoriesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/schedule-histories/{id:int}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsgetrecenthttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/get-recent-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsgetrecenthttprequestsbymoduleauditlogrequestmoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests-by-module/{auditLogRequestModule}",
+    "UrlPath": "/api/event-management-module/audit-logs/get-recent-http-requests-by-module/{auditLogRequestModule}"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatstodayhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-today-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-today-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatslasthourhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-last-hour-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-last-hour-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsyesterdayhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yesterday-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-yesterday-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsweeklyhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-weekly-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-weekly-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsmonthlyhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-monthly-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-monthly-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsyearlyhttprequestsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yearly-http-requests",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-yearly-http-requests"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsdailyhttprequestsbydayAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-daily-http-requests-by-day"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatsdailyhttprequestsbydaybymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-daily-http-requests-by-day-by-module"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatshourlyhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-hourly-http-requests-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-hourly-http-requests-by-module"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatstotalhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-total-http-requests-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-total-http-requests-by-module"
+  },
+  {
+    "Key": "Getapieventmanagementmoduleauditlogsstatshttpstatuscodeslast24hoursbymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-last-24-hours-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-http-status-codes-last-24-hours-by-module"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatshttpstatuscodesAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-http-status-codes"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatshttpstatuscodesbymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-http-status-codes-by-module"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsstatstophttpservicesbymoduleAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-top-http-services-by-module",
+    "UrlPath": "/api/event-management-module/audit-logs/stats-top-http-services-by-module"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/audit-logs"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogscountAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/audit-logs/count"
+  },
+  {
+    "Key": "PostapieventmanagementmoduleauditlogsAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Post",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/event-management-module/audit-logs"
+  },
+  {
+    "Key": "GetapieventmanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/event-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "PutapieventmanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Put",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/event-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "DeleteapieventmanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "EventManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Delete",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/event-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetbyscheduleticketscheduleidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-by-schedule/{ticketScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/tickets/get-by-schedule/{ticketScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetavailableticketscheduleidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-available/{ticketScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/tickets/get-available/{ticketScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetbycustomerticketcustomeridintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-by-customer/{ticketCustomerId:int}",
+    "UrlPath": "/api/ticketing-module/tickets/get-by-customer/{ticketCustomerId:int}"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetsoldTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-sold",
+    "UrlPath": "/api/ticketing-module/tickets/get-sold"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetredeemedTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-redeemed",
+    "UrlPath": "/api/ticketing-module/tickets/get-redeemed"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetreservedTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-reserved",
+    "UrlPath": "/api/ticketing-module/tickets/get-reserved"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetdailysalesTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-daily-sales",
+    "UrlPath": "/api/ticketing-module/tickets/get-daily-sales"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetmonthlyrevenueTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-monthly-revenue",
+    "UrlPath": "/api/ticketing-module/tickets/get-monthly-revenue"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsgetrevenuebyscheduleticketscheduleidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "get-revenue-by-schedule/{ticketScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/tickets/get-revenue-by-schedule/{ticketScheduleId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmoduleticketsmarksoldticketidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Patch",
+    "ControllerName": "TicketsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/tickets/mark-sold/{ticketId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmoduleticketsmarkredeemedticketidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Patch",
+    "ControllerName": "TicketsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/tickets/mark-redeemed/{ticketId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmoduleticketscancelticketidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Patch",
+    "ControllerName": "TicketsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/tickets/cancel/{ticketId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmoduleticketsreserveticketidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Patch",
+    "ControllerName": "TicketsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/tickets/reserve/{ticketId:int}"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/tickets"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketscountTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/tickets/count"
+  },
+  {
+    "Key": "PostapiticketingmoduleticketsTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Post",
+    "ControllerName": "TicketsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/tickets"
+  },
+  {
+    "Key": "GetapiticketingmoduleticketsidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Get",
+    "ControllerName": "TicketsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/tickets/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmoduleticketsidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Put",
+    "ControllerName": "TicketsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/tickets/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmoduleticketsidintTicketsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Tickets",
+    "HttpMethod": "Delete",
+    "ControllerName": "TicketsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/tickets/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetbycustomerbookingcustomeridintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-by-customer/{bookingCustomerId:int}",
+    "UrlPath": "/api/ticketing-module/bookings/get-by-customer/{bookingCustomerId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetbyschedulebookingscheduleidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-by-schedule/{bookingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/bookings/get-by-schedule/{bookingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetpendingBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-pending",
+    "UrlPath": "/api/ticketing-module/bookings/get-pending"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetconfirmedBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-confirmed",
+    "UrlPath": "/api/ticketing-module/bookings/get-confirmed"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetexpiredBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-expired",
+    "UrlPath": "/api/ticketing-module/bookings/get-expired"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetpendingexpiringBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-pending-expiring",
+    "UrlPath": "/api/ticketing-module/bookings/get-pending-expiring"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgettodaybookingsBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-today-bookings",
+    "UrlPath": "/api/ticketing-module/bookings/get-today-bookings"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetbookingsummarybookingscheduleidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-booking-summary/{bookingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/bookings/get-booking-summary/{bookingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsgetmonthlybookingstatsBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "get-monthly-booking-stats",
+    "UrlPath": "/api/ticketing-module/bookings/get-monthly-booking-stats"
+  },
+  {
+    "Key": "PatchapiticketingmodulebookingsconfirmbookingidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Patch",
+    "ControllerName": "BookingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/bookings/confirm/{bookingId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmodulebookingsmarkexpiredbookingidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Patch",
+    "ControllerName": "BookingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/bookings/mark-expired/{bookingId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmodulebookingscancelbookingidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Patch",
+    "ControllerName": "BookingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/bookings/cancel/{bookingId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmodulebookingscompletebookingidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Patch",
+    "ControllerName": "BookingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/bookings/complete/{bookingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/bookings"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingscountBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/bookings/count"
+  },
+  {
+    "Key": "PostapiticketingmodulebookingsBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Post",
+    "ControllerName": "BookingsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/bookings"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingsidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/bookings/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmodulebookingsidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Put",
+    "ControllerName": "BookingsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/bookings/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmodulebookingsidintBookingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Bookings",
+    "HttpMethod": "Delete",
+    "ControllerName": "BookingsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/bookings/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingitemsgetbybookingbookingitembookingidintBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "get-by-booking/{bookingItemBookingId:int}",
+    "UrlPath": "/api/ticketing-module/booking-items/get-by-booking/{bookingItemBookingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingitemsgetbookingdetailsbookingitembookingidintBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "get-booking-details/{bookingItemBookingId:int}",
+    "UrlPath": "/api/ticketing-module/booking-items/get-booking-details/{bookingItemBookingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingitemsBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/booking-items"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingitemscountBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/booking-items/count"
+  },
+  {
+    "Key": "PostapiticketingmodulebookingitemsBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Post",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/booking-items"
+  },
+  {
+    "Key": "GetapiticketingmodulebookingitemsidintBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Get",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/booking-items/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmodulebookingitemsidintBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Put",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/booking-items/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmodulebookingitemsidintBookingItemsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "BookingItems",
+    "HttpMethod": "Delete",
+    "ControllerName": "BookingItemsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/booking-items/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetbyschedulepricingscheduleidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-by-schedule/{pricingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/pricings/get-by-schedule/{pricingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetactivepricingscheduleidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-active/{pricingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/pricings/get-active/{pricingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetbycategorypricingscheduleidintpricingseatcategoryPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-by-category/{pricingScheduleId:int}/{pricingSeatCategory}",
+    "UrlPath": "/api/ticketing-module/pricings/get-by-category/{pricingScheduleId:int}/{pricingSeatCategory}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetearlybirdpricingscheduleidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-early-bird/{pricingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/pricings/get-early-bird/{pricingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetpremiumpricingpricingscheduleidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-premium-pricing/{pricingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/pricings/get-premium-pricing/{pricingScheduleId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsgetpricingsummarypricingscheduleidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "get-pricing-summary/{pricingScheduleId:int}",
+    "UrlPath": "/api/ticketing-module/pricings/get-pricing-summary/{pricingScheduleId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmodulepricingsupdatepricepricingidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Patch",
+    "ControllerName": "PricingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/pricings/update-price/{pricingId:int}"
+  },
+  {
+    "Key": "PatchapiticketingmodulepricingsdeactivatepricingidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Patch",
+    "ControllerName": "PricingsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/ticketing-module/pricings/deactivate/{pricingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/pricings"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingscountPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/pricings/count"
+  },
+  {
+    "Key": "PostapiticketingmodulepricingsPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Post",
+    "ControllerName": "PricingsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/pricings"
+  },
+  {
+    "Key": "GetapiticketingmodulepricingsidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Get",
+    "ControllerName": "PricingsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/pricings/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmodulepricingsidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Put",
+    "ControllerName": "PricingsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/pricings/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmodulepricingsidintPricingsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "Pricings",
+    "HttpMethod": "Delete",
+    "ControllerName": "PricingsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/pricings/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricehistoriesgetbypricingpricehistorypricingidintPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "get-by-pricing/{priceHistoryPricingId:int}",
+    "UrlPath": "/api/ticketing-module/price-histories/get-by-pricing/{priceHistoryPricingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepricehistoriesgetrecentchangesPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "get-recent-changes",
+    "UrlPath": "/api/ticketing-module/price-histories/get-recent-changes"
+  },
+  {
+    "Key": "GetapiticketingmodulepricehistoriesPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/price-histories"
+  },
+  {
+    "Key": "GetapiticketingmodulepricehistoriescountPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/price-histories/count"
+  },
+  {
+    "Key": "PostapiticketingmodulepricehistoriesPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Post",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/price-histories"
+  },
+  {
+    "Key": "GetapiticketingmodulepricehistoriesidintPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Get",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/price-histories/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmodulepricehistoriesidintPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Put",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/price-histories/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmodulepricehistoriesidintPriceHistoriesController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PriceHistories",
+    "HttpMethod": "Delete",
+    "ControllerName": "PriceHistoriesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/price-histories/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsgetbybookingpaymentrecordbookingidintPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "get-by-booking/{paymentRecordBookingId:int}",
+    "UrlPath": "/api/ticketing-module/payment-records/get-by-booking/{paymentRecordBookingId:int}"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsgetbydaterangepaymentrecordpaymentdatefromdatetimepaymentrecordpaymentdatetodatetimePaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "get-by-date-range/{paymentRecordPaymentDateFrom:DateTime}/{paymentRecordPaymentDateTo:DateTime}",
+    "UrlPath": "/api/ticketing-module/payment-records/get-by-date-range/{paymentRecordPaymentDateFrom:DateTime}/{paymentRecordPaymentDateTo:DateTime}"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsgetdailypaymentsPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "get-daily-payments",
+    "UrlPath": "/api/ticketing-module/payment-records/get-daily-payments"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsgetmonthlypaymentsPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "get-monthly-payments",
+    "UrlPath": "/api/ticketing-module/payment-records/get-monthly-payments"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/payment-records"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordscountPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/payment-records/count"
+  },
+  {
+    "Key": "PostapiticketingmodulepaymentrecordsPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Post",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/payment-records"
+  },
+  {
+    "Key": "GetapiticketingmodulepaymentrecordsidintPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Get",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/payment-records/{id:int}"
+  },
+  {
+    "Key": "PutapiticketingmodulepaymentrecordsidintPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Put",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/payment-records/{id:int}"
+  },
+  {
+    "Key": "DeleteapiticketingmodulepaymentrecordsidintPaymentRecordsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "PaymentRecords",
+    "HttpMethod": "Delete",
+    "ControllerName": "PaymentRecordsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/payment-records/{id:int}"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsgetrecenthttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/get-recent-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsgetrecenthttprequestsbymoduleauditlogrequestmoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests-by-module/{auditLogRequestModule}",
+    "UrlPath": "/api/ticketing-module/audit-logs/get-recent-http-requests-by-module/{auditLogRequestModule}"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatstodayhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-today-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-today-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatslasthourhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-last-hour-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-last-hour-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsyesterdayhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yesterday-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-yesterday-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsweeklyhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-weekly-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-weekly-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsmonthlyhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-monthly-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-monthly-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsyearlyhttprequestsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yearly-http-requests",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-yearly-http-requests"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsdailyhttprequestsbydayAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-daily-http-requests-by-day"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatsdailyhttprequestsbydaybymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-daily-http-requests-by-day-by-module"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatshourlyhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-hourly-http-requests-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-hourly-http-requests-by-module"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatstotalhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-total-http-requests-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-total-http-requests-by-module"
+  },
+  {
+    "Key": "Getapiticketingmoduleauditlogsstatshttpstatuscodeslast24hoursbymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-last-24-hours-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-http-status-codes-last-24-hours-by-module"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatshttpstatuscodesAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-http-status-codes"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatshttpstatuscodesbymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-http-status-codes-by-module"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsstatstophttpservicesbymoduleAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-top-http-services-by-module",
+    "UrlPath": "/api/ticketing-module/audit-logs/stats-top-http-services-by-module"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/audit-logs"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogscountAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/audit-logs/count"
+  },
+  {
+    "Key": "PostapiticketingmoduleauditlogsAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Post",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/ticketing-module/audit-logs"
+  },
+  {
+    "Key": "GetapiticketingmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/ticketing-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "PutapiticketingmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Put",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/ticketing-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "DeleteapiticketingmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "TicketingModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Delete",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/ticketing-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesgetactiveVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "get-active",
+    "UrlPath": "/api/venue-management-module/venues/get-active"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesgetbycityvenuecityVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "get-by-city/{venueCity}",
+    "UrlPath": "/api/venue-management-module/venues/get-by-city/{venueCity}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesgetbytypevenuevenuetypeVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "get-by-type/{venueVenueType}",
+    "UrlPath": "/api/venue-management-module/venues/get-by-type/{venueVenueType}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuessearchbynamevenuenameVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "search-by-name/{venueName}",
+    "UrlPath": "/api/venue-management-module/venues/search-by-name/{venueName}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesgetwithcontactVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "get-with-contact",
+    "UrlPath": "/api/venue-management-module/venues/get-with-contact"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulevenuesdeactivatevenueidintVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Patch",
+    "ControllerName": "VenuesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/venues/deactivate/{venueId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulevenuesupdatecontactvenueidintVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Patch",
+    "ControllerName": "VenuesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/venues/update-contact/{venueId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venues"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuescountVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venues/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmodulevenuesVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Post",
+    "ControllerName": "VenuesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/venues"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenuesidintVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Get",
+    "ControllerName": "VenuesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venues/{id:int}"
+  },
+  {
+    "Key": "PutapivenuemanagementmodulevenuesidintVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Put",
+    "ControllerName": "VenuesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/venues/{id:int}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmodulevenuesidintVenuesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Venues",
+    "HttpMethod": "Delete",
+    "ControllerName": "VenuesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/venues/{id:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsgetbyvenuehallvenueidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "get-by-venue/{hallVenueId:int}",
+    "UrlPath": "/api/venue-management-module/halls/get-by-venue/{hallVenueId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsgetactiveHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "get-active",
+    "UrlPath": "/api/venue-management-module/halls/get-active"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsgetactivebyvenuehallvenueidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "get-active-by-venue/{hallVenueId:int}",
+    "UrlPath": "/api/venue-management-module/halls/get-active-by-venue/{hallVenueId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsgetundermaintenanceHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "get-under-maintenance",
+    "UrlPath": "/api/venue-management-module/halls/get-under-maintenance"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsgethallsummaryhallvenueidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "get-hall-summary/{hallVenueId:int}",
+    "UrlPath": "/api/venue-management-module/halls/get-hall-summary/{hallVenueId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulehallssetmaintenancehallidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Patch",
+    "ControllerName": "HallsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/halls/set-maintenance/{hallId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulehallsreopenhallidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Patch",
+    "ControllerName": "HallsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/halls/reopen/{hallId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulehallsdeactivatehallidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Patch",
+    "ControllerName": "HallsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/halls/deactivate/{hallId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/halls"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallscountHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/halls/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmodulehallsHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Post",
+    "ControllerName": "HallsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/halls"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulehallsidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Get",
+    "ControllerName": "HallsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/halls/{id:int}"
+  },
+  {
+    "Key": "PutapivenuemanagementmodulehallsidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Put",
+    "ControllerName": "HallsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/halls/{id:int}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmodulehallsidintHallsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Halls",
+    "HttpMethod": "Delete",
+    "ControllerName": "HallsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/halls/{id:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetbyhallseathallidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-by-hall/{seatHallId:int}",
+    "UrlPath": "/api/venue-management-module/seats/get-by-hall/{seatHallId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetavailableseathallidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-available/{seatHallId:int}",
+    "UrlPath": "/api/venue-management-module/seats/get-available/{seatHallId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetbycategoryseathallidintseatcategorySeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-by-category/{seatHallId:int}/{seatCategory}",
+    "UrlPath": "/api/venue-management-module/seats/get-by-category/{seatHallId:int}/{seatCategory}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetpremiumseatsseathallidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-premium-seats/{seatHallId:int}",
+    "UrlPath": "/api/venue-management-module/seats/get-premium-seats/{seatHallId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetdisabledaccessseathallidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-disabled-access/{seatHallId:int}",
+    "UrlPath": "/api/venue-management-module/seats/get-disabled-access/{seatHallId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetavailablebyrowseathallidintseatrownumberSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-available-by-row/{seatHallId:int}/{seatRowNumber}",
+    "UrlPath": "/api/venue-management-module/seats/get-available-by-row/{seatHallId:int}/{seatRowNumber}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsgetcategorybreakdownseathallidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "get-category-breakdown/{seatHallId:int}",
+    "UrlPath": "/api/venue-management-module/seats/get-category-breakdown/{seatHallId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmoduleseatsmarkreservedseatidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Patch",
+    "ControllerName": "SeatsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/seats/mark-reserved/{seatId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmoduleseatsmarksoldseatidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Patch",
+    "ControllerName": "SeatsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/seats/mark-sold/{seatId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmoduleseatsmarkavailableseatidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Patch",
+    "ControllerName": "SeatsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/seats/mark-available/{seatId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmoduleseatsblockseatseatidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Patch",
+    "ControllerName": "SeatsController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/seats/block-seat/{seatId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seats"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatscountSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seats/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmoduleseatsSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Post",
+    "ControllerName": "SeatsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/seats"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatsidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seats/{id:int}"
+  },
+  {
+    "Key": "PutapivenuemanagementmoduleseatsidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Put",
+    "ControllerName": "SeatsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/seats/{id:int}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmoduleseatsidintSeatsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "Seats",
+    "HttpMethod": "Delete",
+    "ControllerName": "SeatsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/seats/{id:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatcategoriesgetactiveSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "get-active",
+    "UrlPath": "/api/venue-management-module/seat-categories/get-active"
+  },
+  {
+    "Key": "PatchapivenuemanagementmoduleseatcategoriesdeactivateseatcategoryidintSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Patch",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/seat-categories/deactivate/{seatCategoryId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatcategoriesSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seat-categories"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatcategoriescountSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seat-categories/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmoduleseatcategoriesSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Post",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/seat-categories"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleseatcategoriesidintSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Get",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/seat-categories/{id:int}"
+  },
+  {
+    "Key": "PutapivenuemanagementmoduleseatcategoriesidintSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Put",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/seat-categories/{id:int}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmoduleseatcategoriesidintSeatCategoriesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "SeatCategories",
+    "HttpMethod": "Delete",
+    "ControllerName": "SeatCategoriesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/seat-categories/{id:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenueamenitiesgetbyvenuevenueamenityvenueidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Get",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "get-by-venue/{venueAmenityVenueId:int}",
+    "UrlPath": "/api/venue-management-module/venue-amenities/get-by-venue/{venueAmenityVenueId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenueamenitiesgetavailablevenueamenityvenueidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Get",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "get-available/{venueAmenityVenueId:int}",
+    "UrlPath": "/api/venue-management-module/venue-amenities/get-available/{venueAmenityVenueId:int}"
+  },
+  {
+    "Key": "PatchapivenuemanagementmodulevenueamenitiesmarkunavailablevenueamenityidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Patch",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Patch",
+    "UrlPath": "/api/venue-management-module/venue-amenities/mark-unavailable/{venueAmenityId:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenueamenitiesVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Get",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venue-amenities"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenueamenitiescountVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Get",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venue-amenities/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmodulevenueamenitiesVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Post",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/venue-amenities"
+  },
+  {
+    "Key": "GetapivenuemanagementmodulevenueamenitiesidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Get",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/venue-amenities/{id:int}"
+  },
+  {
+    "Key": "PutapivenuemanagementmodulevenueamenitiesidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Put",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/venue-amenities/{id:int}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmodulevenueamenitiesidintVenueAmenitiesController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "VenueAmenities",
+    "HttpMethod": "Delete",
+    "ControllerName": "VenueAmenitiesController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/venue-amenities/{id:int}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsgetrecenthttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/get-recent-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsgetrecenthttprequestsbymoduleauditlogrequestmoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "get-recent-http-requests-by-module/{auditLogRequestModule}",
+    "UrlPath": "/api/venue-management-module/audit-logs/get-recent-http-requests-by-module/{auditLogRequestModule}"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatstodayhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-today-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-today-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatslasthourhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-last-hour-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-last-hour-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsyesterdayhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yesterday-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-yesterday-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsweeklyhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-weekly-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-weekly-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsmonthlyhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-monthly-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-monthly-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsyearlyhttprequestsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-yearly-http-requests",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-yearly-http-requests"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsdailyhttprequestsbydayAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-daily-http-requests-by-day"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatsdailyhttprequestsbydaybymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-daily-http-requests-by-day-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-daily-http-requests-by-day-by-module"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatshourlyhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-hourly-http-requests-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-hourly-http-requests-by-module"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatstotalhttprequestsbymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-total-http-requests-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-total-http-requests-by-module"
+  },
+  {
+    "Key": "Getapivenuemanagementmoduleauditlogsstatshttpstatuscodeslast24hoursbymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-last-24-hours-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-http-status-codes-last-24-hours-by-module"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatshttpstatuscodesAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-http-status-codes"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatshttpstatuscodesbymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-http-status-codes-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-http-status-codes-by-module"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsstatstophttpservicesbymoduleAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "stats-top-http-services-by-module",
+    "UrlPath": "/api/venue-management-module/audit-logs/stats-top-http-services-by-module"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/audit-logs"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogscountAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/audit-logs/count"
+  },
+  {
+    "Key": "PostapivenuemanagementmoduleauditlogsAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Post",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Post",
+    "UrlPath": "/api/venue-management-module/audit-logs"
+  },
+  {
+    "Key": "GetapivenuemanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Get",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Get",
+    "UrlPath": "/api/venue-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "PutapivenuemanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Put",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Put",
+    "UrlPath": "/api/venue-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "DeleteapivenuemanagementmoduleauditlogsidguidAuditLogsController",
+    "ModuleName": "VenueManagementModule",
+    "ModelName": "AuditLogs",
+    "HttpMethod": "Delete",
+    "ControllerName": "AuditLogsController",
+    "MethodName": "Delete",
+    "UrlPath": "/api/venue-management-module/audit-logs/{id:Guid}"
+  },
+  {
+    "Key": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionspermissiongroupnamePortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "get-portal-page-definitions",
+    "UrlPath": "/api/identity-module/portal-page-definitions/get-portal-page-definitions/{permissionGroupName}"
+  },
+  {
+    "Key": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "PortalPageDefinitions",
+    "HttpMethod": "Post",
+    "ControllerName": "PortalPageDefinitionsController",
+    "MethodName": "update-portal-page-permission",
+    "UrlPath": "/api/identity-module/portal-page-definitions/update-portal-page-permission"
+  },
+  {
+    "Key": "GetapiidentitymoduleapimethoddefinitionsgetapipermissionspermissiongroupnameApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "get-api-permissions",
+    "UrlPath": "/api/identity-module/api-method-definitions/get-api-permissions/{permissionGroupName}"
+  },
+  {
+    "Key": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Post",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "update-api-permission",
+    "UrlPath": "/api/identity-module/api-method-definitions/update-api-permission"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsidumlApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "{id}/uml",
+    "UrlPath": "/api/identity-module/topic-workflows/{id}/uml"
+  },
+  {
+    "Key": "GetapiidentitymoduletopicworkflowsiddiagramApiMethodDefinitionsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "ApiMethodDefinitions",
+    "HttpMethod": "Get",
+    "ControllerName": "ApiMethodDefinitionsController",
+    "MethodName": "{id}/diagram",
+    "UrlPath": "/api/identity-module/topic-workflows/{id}/diagram"
+  },
+  {
+    "Key": "PostapiauthregisterAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/register",
+    "UrlPath": "/api/auth/register"
+  },
+  {
+    "Key": "PostapiauthloginAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/login",
+    "UrlPath": "/api/auth/login"
+  },
+  {
+    "Key": "PostapiauthvalidateAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/validate",
+    "UrlPath": "/api/auth/validate"
+  },
+  {
+    "Key": "PostapiauthrefreshAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/refresh",
+    "UrlPath": "/api/auth/refresh"
+  },
+  {
+    "Key": "GetapiauthconfirmemailAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Get",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/confirmEmail",
+    "UrlPath": "/api/auth/confirmEmail"
+  },
+  {
+    "Key": "PostapiauthresendconfirmationemailAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/resendConfirmationEmail",
+    "UrlPath": "/api/auth/resendConfirmationEmail"
+  },
+  {
+    "Key": "PostapiauthforgotpasswordAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/forgotPassword",
+    "UrlPath": "/api/auth/forgotPassword"
+  },
+  {
+    "Key": "PostapiauthresetpasswordAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/resetPassword",
+    "UrlPath": "/api/auth/resetPassword"
+  },
+  {
+    "Key": "Postapiauthmanageuser2faAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/manage/user2fa",
+    "UrlPath": "/api/auth/manage/user2fa"
+  },
+  {
+    "Key": "GetapiauthmanageinfoAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Get",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/manage/info",
+    "UrlPath": "/api/auth/manage/info"
+  },
+  {
+    "Key": "PostapiauthmanageinfoAuthenticationsController",
+    "ModuleName": "IdentityModule",
+    "ModelName": "Authentications",
+    "HttpMethod": "Post",
+    "ControllerName": "AuthenticationsController",
+    "MethodName": "/api/auth/manage/info",
+    "UrlPath": "/api/auth/manage/info"
+  }
+]
+}

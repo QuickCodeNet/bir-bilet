@@ -1,0 +1,14 @@
+{
+  "ModuleDbmlHashes": {
+    "IdentityModule": "Dh2slhYuk2oEigxCNR1v/A==",
+    "EventManagementModule": "LA2JVBEX3Ex7DlrfDMvDQA==",
+    "TicketingModule": "tqkKXiRND9vqm2ao9XSgnQ==",
+    "VenueManagementModule": "\u002BV0Bu7WL0YIrLK79j9jxag=="
+  },
+  "TemplateDirHash": "f353407800034bd39f67c646b614a6909efb7f5cb902e6450ebe8ce408a131cb",
+  "GeneratorHash": "2026-07-22T20:40:35.0000000Z",
+  "GeneratedAt": "2026-07-22T20:45:40.650259Z",
+  "LastBuildSucceeded": true,
+  "LastBuildAt": "2026-07-22T20:46:24.5337207Z",
+  "LastBuildError": ""
+}

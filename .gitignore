@@ -1,0 +1,15 @@
+.vs
+bin
+obj
+QuickCode.BirBilet.Api/bin
+QuickCode.BirBilet.Api/obj
+QuickCode.BirBilet.Portal/bin
+QuickCode.BirBilet.Portal/obj
+QuickCode.BirBilet.Web/bin
+QuickCode.BirBilet.Web/obj
+QuickCode.BirBilet.DataLayer/bin
+QuickCode.BirBilet.DataLayer/obj
+.DS_Store
+/src/.idea
+.env
+**/.env

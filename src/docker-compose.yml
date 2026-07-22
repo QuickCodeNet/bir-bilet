@@ -1,0 +1,127 @@
+services:
+  bir-bilet-pg-data:
+    container_name: "bir-bilet-pg-data"
+    image: postgres:18
+
+  bir-bilet-sql-data:
+    container_name: "bir-bilet-sql-data"
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    
+  bir-bilet-mysql-data:
+    container_name: "bir-bilet-mysql-data"
+    image: mysql:8.3
+
+  bir-bilet-elasticsearch:
+    container_name: bir-bilet-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+
+  bir-bilet-kibana:
+    container_name: bir-bilet-kibana
+    image: docker.elastic.co/kibana/kibana:8.11.0
+
+  quickcode-bir-bilet-gateway-api:
+    container_name: "quickcode-bir-bilet-gateway-api"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-gateway-api
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.BirBilet.Gateway/Dockerfile
+
+  quickcode-bir-bilet-identity-module-api:
+    container_name: "quickcode-bir-bilet-identity-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-identity-module-api
+    build:
+      context: . 
+      dockerfile: Modules/IdentityModule/Presentation/QuickCode.BirBilet.IdentityModule.Api/Dockerfile
+    depends_on:
+      bir-bilet-sql-data:
+        condition: service_healthy
+      bir-bilet-pg-data:
+        condition: service_started
+      
+
+  quickcode-bir-bilet-event-management-module-api:
+    container_name: "quickcode-bir-bilet-event-management-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-event-management-module-api
+    build:
+      context: . 
+      dockerfile: Modules/EventManagementModule/Presentation/QuickCode.BirBilet.EventManagementModule.Api/Dockerfile
+    depends_on:
+      bir-bilet-sql-data:
+        condition: service_healthy
+      bir-bilet-pg-data:
+        condition: service_started
+      
+
+  quickcode-bir-bilet-ticketing-module-api:
+    container_name: "quickcode-bir-bilet-ticketing-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-ticketing-module-api
+    build:
+      context: . 
+      dockerfile: Modules/TicketingModule/Presentation/QuickCode.BirBilet.TicketingModule.Api/Dockerfile
+    depends_on:
+      bir-bilet-sql-data:
+        condition: service_healthy
+      bir-bilet-pg-data:
+        condition: service_started
+      
+
+  quickcode-bir-bilet-venue-management-module-api:
+    container_name: "quickcode-bir-bilet-venue-management-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-venue-management-module-api
+    build:
+      context: . 
+      dockerfile: Modules/VenueManagementModule/Presentation/QuickCode.BirBilet.VenueManagementModule.Api/Dockerfile
+    depends_on:
+      bir-bilet-sql-data:
+        condition: service_healthy
+      bir-bilet-pg-data:
+        condition: service_started
+      
+
+#[-WEB-]
+  
+  bir-bilet-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: bir-bilet-zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT:-2181}:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  bir-bilet-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: bir-bilet-kafka
+    depends_on:
+      - bir-bilet-zookeeper
+    ports:
+      - "${KAFKA_PORT:-9092}:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: bir-bilet-zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://bir-bilet-kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  bir-bilet-kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: bir-bilet-kafdrop
+    ports:
+      - "${KAFDROP_PORT:-9000}:9000"
+    depends_on:
+      - bir-bilet-kafka
+    environment:
+      KAFKA_BROKERCONNECT: bir-bilet-kafka:9092
+        
+  quickcode-bir-bilet-portal:
+    container_name: "quickcode-bir-bilet-portal"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-portal
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.BirBilet.Portal/Dockerfile
+      
+  quickcode-bir-bilet-event-listener-service:
+    container_name: "quickcode-bir-bilet-event-listener-service"
+    image: ${DOCKER_REGISTRY-}quickcode-bir-bilet-event-listener-service
+    build:
+      context: .
+      dockerfile: Services/QuickCode.BirBilet.EventListenerService/Dockerfile

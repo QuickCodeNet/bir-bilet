@@ -1,0 +1,148 @@
+{
+  "ReverseProxy": {
+    "clusters": {
+      "auth-api": {
+        "clusterId": "auth-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://bir-bilet-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "identity-module-api": {
+        "clusterId": "identity-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://bir-bilet-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "event-management-module-api": {
+        "clusterId": "event-management-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://bir-bilet-event-management-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "ticketing-module-api": {
+        "clusterId": "ticketing-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://bir-bilet-ticketing-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "venue-management-module-api": {
+        "clusterId": "venue-management-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://bir-bilet-venue-management-module-821209474183.europe-west1.run.app"
+          }
+        }
+      }
+    },
+    "routes": {
+      "auth": {
+        "routeId": "auth",
+        "clusterId": "auth-api",
+        "authorizationPolicy": null,
+        "match": {
+          "path": "api/auth/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "bir-bilet-gateway-821209474183.europe-west1.run.app",
+            "bir-bilet-gateway",
+            "quickcode-bir-bilet-gateway-api",
+            "bir-bilet-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/auth/{**catch-all}"
+          }
+        ]
+      },
+      "identity-module": {
+        "routeId": "identity-module",
+        "clusterId": "identity-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/identity-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "bir-bilet-gateway-821209474183.europe-west1.run.app",
+            "bir-bilet-gateway",
+            "quickcode-bir-bilet-gateway-api",
+            "bir-bilet-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/identity-module/{**catch-all}"
+          }
+        ]
+      },
+      "event-management-module": {
+        "routeId": "event-management-module",
+        "clusterId": "event-management-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/event-management-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "bir-bilet-gateway-821209474183.europe-west1.run.app",
+            "bir-bilet-gateway",
+            "quickcode-bir-bilet-gateway-api",
+            "bir-bilet-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/event-management-module/{**catch-all}"
+          }
+        ]
+      },
+      "ticketing-module": {
+        "routeId": "ticketing-module",
+        "clusterId": "ticketing-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/ticketing-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "bir-bilet-gateway-821209474183.europe-west1.run.app",
+            "bir-bilet-gateway",
+            "quickcode-bir-bilet-gateway-api",
+            "bir-bilet-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/ticketing-module/{**catch-all}"
+          }
+        ]
+      },
+      "venue-management-module": {
+        "routeId": "venue-management-module",
+        "clusterId": "venue-management-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/venue-management-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "bir-bilet-gateway-821209474183.europe-west1.run.app",
+            "bir-bilet-gateway",
+            "quickcode-bir-bilet-gateway-api",
+            "bir-bilet-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/venue-management-module/{**catch-all}"
+          }
+        ]
+      }
+    }
+  }
+}

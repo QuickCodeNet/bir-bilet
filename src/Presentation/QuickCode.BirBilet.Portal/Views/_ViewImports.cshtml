@@ -1,0 +1,20 @@
+@using QuickCode.BirBilet.Portal;
+@using QuickCode.BirBilet.Portal.Models
+@using QuickCode.BirBilet.Portal.Helpers
+@using QuickCode.BirBilet.Portal.ViewComponents
+@using BSolutions.Bocons.Enumerations
+@using BSolutions.Brecons.Core.Enumerations
+@using QuickCode.BirBilet.Infrastructure.Web.Helpers
+@using IdentityModuleApi = QuickCode.BirBilet.Infrastructure.Integration.Nswag.Clients.IdentityModuleApi.Contracts
+@using EventManagementModuleApi = QuickCode.BirBilet.Infrastructure.Integration.Nswag.Clients.EventManagementModuleApi.Contracts
+@using TicketingModuleApi = QuickCode.BirBilet.Infrastructure.Integration.Nswag.Clients.TicketingModuleApi.Contracts
+@using VenueManagementModuleApi = QuickCode.BirBilet.Infrastructure.Integration.Nswag.Clients.VenueManagementModuleApi.Contracts
+@using IdentityModule = QuickCode.BirBilet.Portal.Models.IdentityModule
+@using EventManagementModule = QuickCode.BirBilet.Portal.Models.EventManagementModule
+@using TicketingModule = QuickCode.BirBilet.Portal.Models.TicketingModule
+@using VenueManagementModule = QuickCode.BirBilet.Portal.Models.VenueManagementModule
+
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, BSolutions.Bocons
+@addTagHelper *, QuickCode.BirBilet.Portal

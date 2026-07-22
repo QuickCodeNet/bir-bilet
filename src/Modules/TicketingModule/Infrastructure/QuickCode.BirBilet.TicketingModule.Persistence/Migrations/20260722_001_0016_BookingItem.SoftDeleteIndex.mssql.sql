@@ -1,0 +1,4 @@
+﻿IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.BOOKING_ITEMS', N'U') AND name = N'IX_BOOKING_ITEMS_IsDeleted')
+BEGIN
+    CREATE INDEX [IX_BOOKING_ITEMS_IsDeleted] ON [dbo].[BOOKING_ITEMS] ([IsDeleted]);
+END

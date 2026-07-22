@@ -1,0 +1,849 @@
+﻿{
+"KafkaEvents": [
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "TopicName": "birbilet.identity_module.modules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "TopicName": "birbilet.identity_module.modules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "TopicName": "birbilet.identity_module.modules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelmodulenameModelsController",
+    "TopicName": "birbilet.identity_module.models.delete_models_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "TopicName": "birbilet.identity_module.models_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "birbilet.identity_module.models_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "birbilet.identity_module.models_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "TopicName": "birbilet.identity_module.permission_groups_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "birbilet.identity_module.permission_groups_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "birbilet.identity_module.permission_groups_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions.delete_api_method_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions.delete_api_method_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions.delete_portal_page_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions.delete_portal_page_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "birbilet.identity_module.api_method_access_grants.clear_api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "birbilet.identity_module.api_method_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "birbilet.identity_module.api_method_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "birbilet.identity_module.api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "birbilet.identity_module.portal_page_access_grants.clear_portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "birbilet.identity_module.portal_page_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "birbilet.identity_module.portal_page_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "birbilet.identity_module.portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenukeyPortalMenusController",
+    "TopicName": "birbilet.identity_module.portal_menus.delete_portal_menu_items_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenukeyportalmenunamePortalMenusController",
+    "TopicName": "birbilet.identity_module.portal_menus.delete_portal_menu_items_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "TopicName": "birbilet.identity_module.portal_menus_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "birbilet.identity_module.portal_menus_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "birbilet.identity_module.portal_menus_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "TopicName": "birbilet.identity_module.column_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "birbilet.identity_module.column_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "birbilet.identity_module.column_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "TopicName": "birbilet.identity_module.table_combobox_settings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "birbilet.identity_module.table_combobox_settings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "birbilet.identity_module.table_combobox_settings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "TopicName": "birbilet.identity_module.kafka_events.clean_kafka_events_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "TopicName": "birbilet.identity_module.kafka_events.clean_kafka_events_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "TopicName": "birbilet.identity_module.kafka_events_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "birbilet.identity_module.kafka_events_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "birbilet.identity_module.kafka_events_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "TopicName": "birbilet.identity_module.topic_workflows_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "birbilet.identity_module.topic_workflows_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "birbilet.identity_module.topic_workflows_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "TopicName": "birbilet.identity_module.asp_net_users_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "birbilet.identity_module.asp_net_users_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "birbilet.identity_module.asp_net_users_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokentokenRefreshTokensController",
+    "TopicName": "birbilet.identity_module.refresh_tokens.update_refresh_tokens_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "TopicName": "birbilet.identity_module.refresh_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "birbilet.identity_module.refresh_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "birbilet.identity_module.refresh_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_role_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_role_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_role_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_logins_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_logins_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "birbilet.identity_module.asp_net_user_logins_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_user_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_user_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "birbilet.identity_module.asp_net_user_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "TopicName": "birbilet.identity_module.asp_net_user_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "birbilet.identity_module.asp_net_user_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "birbilet.identity_module.asp_net_user_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleauditlogsAuditLogsController",
+    "TopicName": "birbilet.identity_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.identity_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.identity_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleeventitemspublisheventitemidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items.publish_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleeventitemscanceleventitemidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items.cancel_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleeventitemsmarkcompletedeventitemidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items.mark_completed_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleeventitemsdeactivateeventitemidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items.deactivate_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapieventmanagementmoduleeventitemsEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapieventmanagementmoduleeventitemsidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleeventitemsidintEventItemsController",
+    "TopicName": "birbilet.event_management_module.event_items_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleeventtypesdeactivateeventtypeidintEventTypesController",
+    "TopicName": "birbilet.event_management_module.event_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapieventmanagementmoduleeventtypesEventTypesController",
+    "TopicName": "birbilet.event_management_module.event_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapieventmanagementmoduleeventtypesidintEventTypesController",
+    "TopicName": "birbilet.event_management_module.event_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleeventtypesidintEventTypesController",
+    "TopicName": "birbilet.event_management_module.event_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleschedulesupdateavailableseatsscheduleidintSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules.update_available_seats_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleschedulesmarksoldoutscheduleidintSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules.mark_sold_out_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapieventmanagementmoduleschedulescancelschedulescheduleidintSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules.cancel_schedule_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapieventmanagementmoduleschedulesSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapieventmanagementmoduleschedulesidintSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleschedulesidintSchedulesController",
+    "TopicName": "birbilet.event_management_module.schedules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapieventmanagementmoduleschedulehistoriesScheduleHistoriesController",
+    "TopicName": "birbilet.event_management_module.schedule_histories_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapieventmanagementmoduleschedulehistoriesidintScheduleHistoriesController",
+    "TopicName": "birbilet.event_management_module.schedule_histories_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleschedulehistoriesidintScheduleHistoriesController",
+    "TopicName": "birbilet.event_management_module.schedule_histories_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapieventmanagementmoduleauditlogsAuditLogsController",
+    "TopicName": "birbilet.event_management_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapieventmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.event_management_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapieventmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.event_management_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmoduleticketsmarksoldticketidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets.mark_sold_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmoduleticketsmarkredeemedticketidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets.mark_redeemed_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmoduleticketscancelticketidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets.cancel_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmoduleticketsreserveticketidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets.reserve_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmoduleticketsTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmoduleticketsidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmoduleticketsidintTicketsController",
+    "TopicName": "birbilet.ticketing_module.tickets_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulebookingsconfirmbookingidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings.confirm_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulebookingsmarkexpiredbookingidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings.mark_expired_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulebookingscancelbookingidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings.cancel_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulebookingscompletebookingidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings.complete_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmodulebookingsBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmodulebookingsidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmodulebookingsidintBookingsController",
+    "TopicName": "birbilet.ticketing_module.bookings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmodulebookingitemsBookingItemsController",
+    "TopicName": "birbilet.ticketing_module.booking_items_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmodulebookingitemsidintBookingItemsController",
+    "TopicName": "birbilet.ticketing_module.booking_items_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmodulebookingitemsidintBookingItemsController",
+    "TopicName": "birbilet.ticketing_module.booking_items_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulepricingsupdatepricepricingidintPricingsController",
+    "TopicName": "birbilet.ticketing_module.pricings.update_price_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiticketingmodulepricingsdeactivatepricingidintPricingsController",
+    "TopicName": "birbilet.ticketing_module.pricings.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmodulepricingsPricingsController",
+    "TopicName": "birbilet.ticketing_module.pricings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmodulepricingsidintPricingsController",
+    "TopicName": "birbilet.ticketing_module.pricings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmodulepricingsidintPricingsController",
+    "TopicName": "birbilet.ticketing_module.pricings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmodulepricehistoriesPriceHistoriesController",
+    "TopicName": "birbilet.ticketing_module.price_histories_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmodulepricehistoriesidintPriceHistoriesController",
+    "TopicName": "birbilet.ticketing_module.price_histories_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmodulepricehistoriesidintPriceHistoriesController",
+    "TopicName": "birbilet.ticketing_module.price_histories_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmodulepaymentrecordsPaymentRecordsController",
+    "TopicName": "birbilet.ticketing_module.payment_records_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmodulepaymentrecordsidintPaymentRecordsController",
+    "TopicName": "birbilet.ticketing_module.payment_records_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmodulepaymentrecordsidintPaymentRecordsController",
+    "TopicName": "birbilet.ticketing_module.payment_records_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiticketingmoduleauditlogsAuditLogsController",
+    "TopicName": "birbilet.ticketing_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiticketingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.ticketing_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiticketingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.ticketing_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulevenuesdeactivatevenueidintVenuesController",
+    "TopicName": "birbilet.venue_management_module.venues.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulevenuesupdatecontactvenueidintVenuesController",
+    "TopicName": "birbilet.venue_management_module.venues.update_contact_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmodulevenuesVenuesController",
+    "TopicName": "birbilet.venue_management_module.venues_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmodulevenuesidintVenuesController",
+    "TopicName": "birbilet.venue_management_module.venues_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmodulevenuesidintVenuesController",
+    "TopicName": "birbilet.venue_management_module.venues_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulehallssetmaintenancehallidintHallsController",
+    "TopicName": "birbilet.venue_management_module.halls.set_maintenance_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulehallsreopenhallidintHallsController",
+    "TopicName": "birbilet.venue_management_module.halls.reopen_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulehallsdeactivatehallidintHallsController",
+    "TopicName": "birbilet.venue_management_module.halls.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmodulehallsHallsController",
+    "TopicName": "birbilet.venue_management_module.halls_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmodulehallsidintHallsController",
+    "TopicName": "birbilet.venue_management_module.halls_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmodulehallsidintHallsController",
+    "TopicName": "birbilet.venue_management_module.halls_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmoduleseatsmarkreservedseatidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats.mark_reserved_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmoduleseatsmarksoldseatidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats.mark_sold_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmoduleseatsmarkavailableseatidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats.mark_available_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmoduleseatsblockseatseatidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats.block_seat_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmoduleseatsSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmoduleseatsidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmoduleseatsidintSeatsController",
+    "TopicName": "birbilet.venue_management_module.seats_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmoduleseatcategoriesdeactivateseatcategoryidintSeatCategoriesController",
+    "TopicName": "birbilet.venue_management_module.seat_categories.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmoduleseatcategoriesSeatCategoriesController",
+    "TopicName": "birbilet.venue_management_module.seat_categories_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmoduleseatcategoriesidintSeatCategoriesController",
+    "TopicName": "birbilet.venue_management_module.seat_categories_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmoduleseatcategoriesidintSeatCategoriesController",
+    "TopicName": "birbilet.venue_management_module.seat_categories_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapivenuemanagementmodulevenueamenitiesmarkunavailablevenueamenityidintVenueAmenitiesController",
+    "TopicName": "birbilet.venue_management_module.venue_amenities.mark_unavailable_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmodulevenueamenitiesVenueAmenitiesController",
+    "TopicName": "birbilet.venue_management_module.venue_amenities_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmodulevenueamenitiesidintVenueAmenitiesController",
+    "TopicName": "birbilet.venue_management_module.venue_amenities_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmodulevenueamenitiesidintVenueAmenitiesController",
+    "TopicName": "birbilet.venue_management_module.venue_amenities_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapivenuemanagementmoduleauditlogsAuditLogsController",
+    "TopicName": "birbilet.venue_management_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapivenuemanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.venue_management_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapivenuemanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "birbilet.venue_management_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "TopicName": "birbilet.identity_module.portal_page_definitions.update_portal_page_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "TopicName": "birbilet.identity_module.api_method_definitions.update_api_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthregisterAuthenticationsController",
+    "TopicName": "birbilet.auth.register_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthloginAuthenticationsController",
+    "TopicName": "birbilet.auth.login_post",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthvalidateAuthenticationsController",
+    "TopicName": "birbilet.auth.validate_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthrefreshAuthenticationsController",
+    "TopicName": "birbilet.auth.refresh_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresendconfirmationemailAuthenticationsController",
+    "TopicName": "birbilet.auth.resendconfirmationemail_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthforgotpasswordAuthenticationsController",
+    "TopicName": "birbilet.auth.forgotpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresetpasswordAuthenticationsController",
+    "TopicName": "birbilet.auth.resetpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "Postapiauthmanageuser2faAuthenticationsController",
+    "TopicName": "birbilet.auth.manage.user2fa_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthmanageinfoAuthenticationsController",
+    "TopicName": "birbilet.auth.manage.info_post",
+    "IsActive": false
+  }
+]
+}
